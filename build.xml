@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>  
   
-<project name="GameServer" basedir="." default="makewar">  
+<project name="GameServer-MJ" basedir="." default="makewar">  
     <property name="classpath_lib" value="WEB-INF/lib"/>
     <property environment="sys_var"/>
     <property name= "tomcat_lib" value="${sys_var.TOMCAT_HOME}/lib"/>
-    <property name="build" value="/root/project/GameServer"/> 
+    <property name="build" value="/data/majiang/GameServer-MJ"/> 
     <property name="war_dir" value="/root/project/GameServer.war"/>
     <property name="sources" value="${basedir}/src"/>
      
